@@ -45,6 +45,22 @@ body {
 a.footer-link {
     text-decoration: none;
     color: inherit;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    transition: color 0.3s ease;
+}
+
+.footer-discord-icon {
+    font-size: 1rem;
+    color: var(--text-muted);
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover .footer-text,
+.footer-link:hover .footer-discord-icon {
+    color: var(--gold-primary);
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
 }
 
 a.footer-link:hover .footer-text {
