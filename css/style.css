@@ -42,6 +42,16 @@ body {
     position: relative;
 }
 
+a.footer-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a.footer-link:hover .footer-text {
+    color: var(--gold-primary);
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+}
+
 .hidden {
     display: none !important;
 }
